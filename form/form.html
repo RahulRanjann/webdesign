@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarLab</title>
+    <link rel="icon" type="image/png" href="./imaga/ranjan (1).png" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1  style=" font-family: 'Mea Culpa', cursive; text-align: center" > StarLab</h1>
+
+    <i class="far fa-star fs40"></i>
+
+    <form action="javascript:void(0)">
+
+        <div class="m10">
+            <span>NAME:</span>
+            <input type="text" name="userName" id="name">
+        </div>
+
+
+        <div class="m10">
+            Email: <input type="email" name="userEmail">
+        </div>
+
+
+        <div class="m10">
+            Are you 18+: <input type="checkbox" name="userEligibility" checked>
+        </div>
+        <br>
+        <div class="m10">
+            Date: <input type="date" name="userDate">
+        </div>
+        <br>
+        <div class="m10">
+            Phone No.: <input type="number" name="userPhoneNo.">
+        </div>
+        <br>
+        <div class="m10">
+            Gender:
+            <br> <input type="radio" name="userGender"> Male
+            <br>
+            <input type="radio" name="userGender"> Female
+            <br>
+            <input type="radio" name="userGender"> Ohers
+        </div>
+
+        <br>
+        <div class="m10">
+            Write about yourself:
+            <br>
+            <textarea name="userText" cols="10" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div class="m10">
+            <label for="region">Region</label>
+            <select name="userRegion">
+                <option value="Indian" selected>Indian</option>
+                <option value="other">Out of India</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <span>Uplode your resume: &nbsp; &nbsp;</span>
+            <input type = "file" name = "fileupload" accept = "png" />
+        </div>
+        <div class="m10">
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
